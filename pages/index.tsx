@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import HomeCard from "../components/HomeCard";
 import AnalyticsCard from "../components/AnalyticsCard";
-import ClassesCard from "../components/ClassesCard";
+import ClassTab from "../components/ClassTab";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
         <AnalyticsCard />
 
-        <ClassesCard />
+        <ClassTab />
       </main>
     </div>
   );
