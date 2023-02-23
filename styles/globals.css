@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.prize-one {
+  @apply flex items-center justify-center;
+  clip-path: polygon(11% 0, 94% 0, 100% 100%, 20% 100%);
+  padding-top: 20px;
+  margin-right: -20px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  height: 90px;
+  width: 95px;
+  background-color: orange;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.prize-two {
+  @apply flex items-center justify-center;
+  clip-path: polygon(6% 5%, 94% 0, 85% 100%, 13% 100%);
+  text-align: center;
+  padding-top: 20px;
+  font-size: medium;
+  font-weight: bold;
+  height: 140px;
+  width: 130px;
+  @apply bg-yellow-400;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.prize-three {
+  @apply flex items-center justify-center;
+  clip-path: polygon(10% 12%, 100% 21%, 100% 100%, 0 100%);
+  text-align: center;
+  font-size: small;
+  padding-top: 20px;
+  margin-left: -22px;
+  font-weight: bold;
+  height: 110px;
+  width: 100px;
+  background-color: orange;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
