@@ -7,7 +7,7 @@ import ClassTab from "../components/ClassTab";
 
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2 bg-gray-300'>
+    <div className='flex min-h-screen flex-col items-center justify-center py-2 bg-zinc-200'>
       <Head>
         <title>Trading App</title>
       </Head>

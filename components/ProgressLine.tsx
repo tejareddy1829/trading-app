@@ -1,7 +1,7 @@
 export default function ProgressLine({
   noOfSegments,
   completedSegments,
-  color,
+  color = "bg-white",
 }) {
   const segmentsArray = new Array(noOfSegments).fill("_");
 
@@ -10,7 +10,7 @@ export default function ProgressLine({
       {segmentsArray.map((segmment, index) => (
         <div
           className={`${
-            completedSegments >= index + 1 ? color || "bg-white" : "bg-gray-400"
+            completedSegments >= index + 1 ? color : "bg-gray-400"
           } h-2 flex-1 mr-2 rounded-full`}
         >
           {" "}

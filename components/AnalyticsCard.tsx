@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 import Header from "./Header";
 import NavigationBar from "./NavigationBar";
 import ProgressLine from "./ProgressLine";
