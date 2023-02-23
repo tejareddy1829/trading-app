@@ -3,7 +3,7 @@ import Header from "./Header";
 import NavigationBar from "./NavigationBar";
 import Widgets from "./Widgets";
 
-import ProfileBox from "./ProfileBox";
+import TradersRank from "./TradersRank";
 import Graphbox from "./Graphbox";
 
 function HomeCard() {
@@ -27,7 +27,7 @@ function HomeCard() {
       {/* profile */}
 
       <div className='mt-0'>
-        <ProfileBox />
+        <TradersRank />
       </div>
 
       <div className='flex items-center w-full mt-[-2px] bg-white rounded-b-3xl'>

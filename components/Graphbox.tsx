@@ -11,7 +11,7 @@ function Graphbox() {
       <div className='flex items-end align-middle '>
         <div className='flex flex-col items-center'>
           <div className='mb-2 ml-1'>
-            <UserProfile />
+            <UserProfile userNo={1} />
           </div>
 
           <div className='prize-one'>
@@ -24,7 +24,7 @@ function Graphbox() {
 
         <div className='flex flex-col items-center'>
           <div className='mb-2 ml-1'>
-            <UserProfile />
+            <UserProfile userNo={2} />
           </div>
 
           <div className='prize-two '>
@@ -37,7 +37,7 @@ function Graphbox() {
 
         <div className='flex flex-col items-center'>
           <div className='-mb-2 ml-1'>
-            <UserProfile />
+            <UserProfile userNo={3} />
           </div>
 
           <div className='prize-three'>
