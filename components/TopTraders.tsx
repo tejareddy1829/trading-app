@@ -1,7 +1,7 @@
 import React from "react";
 import { UserProfile } from "./UserIcon";
 
-function Graphbox() {
+function TopTraders() {
   return (
     <div className='flex items-center flex-col justify-between h-full'>
       <div className=' text-white'>
@@ -52,4 +52,4 @@ function Graphbox() {
   );
 }
 
-export default Graphbox;
+export default TopTraders;

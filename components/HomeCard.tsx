@@ -4,7 +4,7 @@ import NavigationBar from "./NavigationBar";
 import Widgets from "./Widgets";
 
 import TradersRank from "./TradersRank";
-import Graphbox from "./Graphbox";
+import TopTraders from "./TopTraders";
 
 function HomeCard() {
   return (
@@ -21,7 +21,7 @@ function HomeCard() {
 
       {/* graphs */}
       <div className='flex-1'>
-        <Graphbox />
+        <TopTraders />
       </div>
 
       {/* profile */}

@@ -6,7 +6,7 @@ const traders = [
   { rank: 1, name: "James", amount: "930", rankedUp: true },
   { rank: 2, name: "Ema", amount: "900", rankedUp: false },
   { rank: 3, name: "Maizie", amount: "870", rankedUp: true },
-  { rank: 4, name: "Humayra", amount: "790", rankedUp: false },
+  { rank: 4, name: "Humayra", amount: "790", rankedUp: true },
 ];
 
 function TradersRank() {
