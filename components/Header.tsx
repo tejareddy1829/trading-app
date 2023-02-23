@@ -22,7 +22,7 @@ function Header(): any {
       </div>
 
       {/* bottom */}
-      <div className='mt-2 flex justify-around'>
+      <div className='mt-2 flex justify-around items-center'>
         {/* rank */}
         <div className='flex items-center'>
           <Image src={"/icons/trophy.png"} width={25} height={25} alt={"cup"} />

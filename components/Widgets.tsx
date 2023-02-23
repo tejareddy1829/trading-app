@@ -5,12 +5,12 @@ function Widgets() {
   return (
     <div className='flex flex-col items-center'>
       <div className='flex items-center space-x-2 '>
-        <div className=' ml-2 w-80 flex items-center justify-between h-10  bg-gray-300 bg-opacity-10 text-white rounded-full'>
+        <div className=' ml-2 w-80 flex items-center justify-between h-10  bg-gray-300 bg-opacity-30 text-white rounded-full'>
           <p className=' text-violet-700 rounded-full w-20  pt-2 pl-5 h-10 bg-white'>
             Week
           </p>
           <p>Month</p>
-          <p className='pr-3'>Year</p>
+          <p className='pr-5'>Year</p>
         </div>
         <div className=' pt-2 pl-2  bg-gray-300 bg-opacity-10 text-white rounded-full w-10 h-10'>
           <CalendarDaysIcon height={25} width={25} />
