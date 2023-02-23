@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
+* {
+  font-family: "Jost", sans-serif;
+}
 .prize-one {
   @apply flex items-center justify-center;
   clip-path: polygon(11% 0, 94% 0, 100% 100%, 20% 100%);
