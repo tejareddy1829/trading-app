@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Header from "./Header";
 import NavigationBar from "./NavigationBar";
+import ProgressLine from "./ProgressLine";
 import Widgets from "./Widgets";
 
 function AnalyticsCard() {
@@ -18,13 +19,17 @@ function AnalyticsCard() {
       {/* prics */}
       <div className=' flex items-center flex-col space-y-4 mt-6 text-white'>
         <h1 className=' font-semibold text-5xl'>$640</h1>
-        <div className=' w-60 h-2 bg-sky-400 rounded-full mb-2'></div>
+        <ProgressLine
+          completedSegments={3}
+          noOfSegments={4}
+          color={"bg-sky-400"}
+        />
       </div>
 
       {/* cards */}
       <div className='mt-12  space-y-9'>
         <div className=' bg-sky-400 rounded-xl m-5'>
-          <div className='flex items-center justify-between mt-6'>
+          <div className='flex items-center justify-between'>
             <div>
               <h1 className='text-white font-medium pl-5'>
                 Trading Algorithms
@@ -43,19 +48,19 @@ function AnalyticsCard() {
 
           {/* paragraph */}
           <div className='flex items-center flex-col'>
-            <div className='text-start  p-4 pt-2 w-[85%]'>
-              <p className='text-white space-x-1 text-sm'>
+            <div className='text-start p-2 w-[85%]'>
+              <p className='text-white space-x-1 text-md'>
                 This course covers two of the seven trading strategies that work
                 in emerging markets.
               </p>
             </div>
 
-            <div className=' w-60 h-2 bg-white rounded-full mb-2'></div>
+            <ProgressLine completedSegments={2} noOfSegments={4} />
           </div>
         </div>
 
-        <div className=' bg-yellow-400 rounded-xl m-5'>
-          <div className='flex items-center justify-between mt-6'>
+        <div className=' bg-yellow-400 rounded-xl m-5 mt-2'>
+          <div className='flex items-center justify-between'>
             <div>
               <h1 className='text-white font-medium pl-5'>
                 Behavioral Investing{" "}
@@ -74,14 +79,14 @@ function AnalyticsCard() {
 
           {/* paragraph */}
           <div className='flex items-center flex-col'>
-            <div className='text-start  p-4 pt-2 w-[85%]'>
-              <p className='text-white space-x-1 text-sm'>
+            <div className='text-start  p-2 w-[85%]'>
+              <p className='text-white space-x-1 text-md'>
                 Learn the nature of the baises and therir organs, using
-                psycology, neuroscinces and economics
+                psycology.
               </p>
             </div>
 
-            <div className=' w-60 h-2 bg-white rounded-full mb-2'></div>
+            <ProgressLine completedSegments={1} noOfSegments={4} />
           </div>
         </div>
       </div>

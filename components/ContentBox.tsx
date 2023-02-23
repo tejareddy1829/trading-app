@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressLine from "./ProgressLine";
 
 function ContentBox() {
   return (
@@ -21,14 +22,14 @@ function ContentBox() {
 
         {/* paragraph */}
         <div className='flex items-center flex-col'>
-          <div className='text-start  p-4 pt-2 w-[85%]'>
-            <p className='text-white space-x-1 text-sm'>
+          <div className='text-start  w-[85%]'>
+            <p className='text-white space-x-1 text-md'>
               This course covers two of the seven trading strategies that work
               in emerging markets.
             </p>
           </div>
 
-          <div className=' w-60 h-2 bg-white rounded-full mb-2'></div>
+          <ProgressLine completedSegments={2} noOfSegments={4} />
         </div>
       </div>
       <div className='bg-rose-500 rounded-xl m-5'>
@@ -49,13 +50,13 @@ function ContentBox() {
 
         {/* paragraph */}
         <div className='flex items-center flex-col'>
-          <div className='text-start  p-4 pt-2 w-[80%]'>
-            <p className='text-white space-x-1 text-sm'>
+          <div className='text-start  w-[80%]'>
+            <p className='text-white space-x-1 text-md'>
               This course teaches you the concept of risk and expexted return.
             </p>
           </div>
 
-          <div className=' w-60 h-2 bg-white rounded-full mb-2'></div>
+          <ProgressLine completedSegments={3} noOfSegments={4} />
         </div>
       </div>
       <div className=' bg-yellow-400 rounded-xl m-5'>
@@ -78,14 +79,14 @@ function ContentBox() {
 
         {/* paragraph */}
         <div className='flex items-center flex-col'>
-          <div className='text-start  p-4 pt-2 w-[85%]'>
-            <p className='text-white space-x-1 text-sm'>
+          <div className='text-start  w-[85%]'>
+            <p className='text-white space-x-1 text-md'>
               Learn the nature of the baises and therir organs, using psycology,
               neuroscinces and economics
             </p>
           </div>
 
-          <div className=' w-60 h-2 bg-white rounded-full mb-2'></div>
+          <ProgressLine completedSegments={1} noOfSegments={4} />
         </div>
       </div>
     </>

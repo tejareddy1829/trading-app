@@ -11,11 +11,11 @@ const traders = [
 
 function TradersRank() {
   return (
-    <div className=' bg-white space-y-1 rounded-t-xl'>
+    <div className=' bg-white rounded-t-xl'>
       {traders.map((trader) => {
         return (
-          <div className='flex items-center space-x-2 justify-between p-2'>
-            <div className='flex items-center space-x-4 justify-between p3'>
+          <div className='flex items-center space-x-2 justify-between p-2 px-3'>
+            <div className='flex items-center space-x-4 justify-between '>
               <div>{trader.rank}.</div>
               <Image
                 src={trader.rankedUp ? "/icons/green.png" : "/icons/down.png"}
