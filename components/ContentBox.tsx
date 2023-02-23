@@ -31,7 +31,7 @@ function ContentBox() {
           <div className=' w-60 h-2 bg-white rounded-full mb-2'></div>
         </div>
       </div>
-      <div className=' bg-red-400 rounded-xl m-5'>
+      <div className='bg-rose-500 rounded-xl m-5'>
         <div className='flex items-center justify-between mt-6'>
           <div>
             <h1 className='text-white font-medium pl-5'>Risk Management</h1>

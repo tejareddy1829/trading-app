@@ -4,7 +4,7 @@ import ContentBox from "./ContentBox";
 import Header from "./Header";
 import NavigationBar from "./NavigationBar";
 
-function ClassesCard() {
+function ClassTab() {
   return (
     // header
     <div className='border w-[400px] h-[800px] rounded-3xl bg-[#240091] transform'>
@@ -30,4 +30,4 @@ function ClassesCard() {
   );
 }
 
-export default ClassesCard;
+export default ClassTab;
